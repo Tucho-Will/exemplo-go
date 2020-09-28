@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46950fd4-5613-4d3a-b3b5-1358287c12db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51/storage_v2/_src_/database/exemplo.eG9dsQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51/storage_v2/_src_/database/exemplo.eG9dsQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51/storage_v2/_src_/database/exemplo.eG9dsQ/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51/storage_v2/_src_/database/exemplo.eG9dsQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51/storage_v2/_src_/database/exemplo.eG9dsQ/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51/storage_v2/_src_/database/exemplo.eG9dsQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b9f74575-44d6-43cd-bfcb-5db2824f2f51/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/exemplo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/repositories/patient_repository.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/base_entity.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/patient.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/cmd/server/consurmer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/cmd/server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/utils/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +76,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -145,6 +120,10 @@
       <screen x="0" y="27" width="1920" height="1011" />
     </state>
     <state x="1155" y="337" width="559" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1011@0.27.1920.1011" timestamp="1601252704301" />
+    <state x="525" y="109" width="860" height="854" key="CommitChangelistDialog2" timestamp="1601321941355">
+      <screen x="0" y="27" width="1920" height="1011" />
+    </state>
+    <state x="525" y="109" width="860" height="854" key="CommitChangelistDialog2/0.27.1920.1011@0.27.1920.1011" timestamp="1601321941355" />
     <state width="1874" height="262" key="GridCell.Tab.0.bottom" timestamp="1601319533782">
       <screen x="0" y="27" width="1920" height="1011" />
     </state>
@@ -165,6 +144,10 @@
       <screen x="0" y="27" width="1920" height="1011" />
     </state>
     <state x="898" y="167" width="1022" height="737" key="SettingsEditor/0.27.1920.1011@0.27.1920.1011" timestamp="1601251164199" />
+    <state x="555" y="268" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601321943164">
+      <screen x="0" y="27" width="1920" height="1011" />
+    </state>
+    <state x="555" y="268" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1011@0.27.1920.1011" timestamp="1601321943164" />
     <state x="856" y="429" width="367" height="237" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1601293201659">
       <screen x="0" y="27" width="1920" height="1011" />
     </state>

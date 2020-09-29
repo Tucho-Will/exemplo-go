@@ -1,4 +1,4 @@
-package main
+package kafka
 
 import (
 	"context"
@@ -7,22 +7,13 @@ import (
 	"time"
 )
 
-func main() {
-	consumer:= Consumer{}
-	consumer.Consume()
-}
-
 type Consumer struct {
 }
-
-const KafkaServer2 = "localhost:9092"
-const KafkaTopic2= "meu-topico-legal"
-
 
 func (c *Consumer) Consume() {
 	config := sarama.NewConfig()
 	config.Version = sarama.V2_4_0_0
-	group, err := sarama.NewConsumerGroup([]string{KafkaServer2}, "my-group", config)
+	group, err := sarama.NewConsumerGroup([]string{KafkaServer}, "my-group", config)
 	if err != nil {
 		panic(err)
 	}
@@ -36,7 +27,7 @@ func (c *Consumer) Consume() {
 	func() {
 		ctx := context.Background()
 		for {
-			topics := []string{KafkaTopic2}
+			topics := []string{KafkaTopic}
 			err := group.Consume(ctx, topics, c)
 			if err != nil {
 				fmt.Printf("kafka consume failed: %v, sleeping and retry in a moment\n", err)
